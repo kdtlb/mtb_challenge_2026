@@ -474,7 +474,7 @@ exportGpxBtn.addEventListener('click', () => {
 
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'andaluz_2026_50k.gpx';
+    a.download = 'arch_2026_50k.gpx';
     document.body.appendChild(a);
     a.click();
     a.remove();
